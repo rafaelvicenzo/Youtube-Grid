@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.left .hamburguer {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    padding-right: 32px;
+    cursor: pointer;
+    
+}
+
+.left .youtubelogo {
+    width: 90px;
+    height: 20px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+}
+
+.middle #search {
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #FFF;
+    border-radius: 2px;
+
+}
+
+.middle #searchBtn {
+    width: 57px;
+    height: 44px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+    border-radius: 2px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    cursor: pointer;
+}
+
+
+.right .profile {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+}
+
+.sidebar {
+    width: 218px;
+    height: 500px;
+}
+
+.sidebar .menuItem {
+    display: flex;
+    width: 218px;
+    height: 500px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    flex-shrink: 0;
+}
+
+.sidebar .menuItem p {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 16px;
+}
+
+.sidebar .menuItem #items {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: flex-start;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-items: center;
+    margin-left: 205px;
+    position: relative;
+    top: -450px;
+}
+
+.container .video .videoDetails #channelAvatar  {
+    float: left;
+}
+
+.container .video .videoDetails {
+    width: 249px;
+    height: 74px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+
+
+.container .video p {
+    color: #000;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 50px;
+}
+
+.container .video #info {
+    color: #515151;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container .video img {
+    cursor: pointer;
+}
